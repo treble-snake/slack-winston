@@ -1,21 +1,45 @@
 {
-  "name": "winston-loggly",
-  "version": "0.6.0",
-  "description": "A Loggly transport for winston",
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "name": "winston-hipchat",
+  "version": "0.0.1",
+  "description": "A Hipchat transport for winston",
+  "author": "Joey Baker <joey@byjoeybaker.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/indexzero/winston-loggly.git"
+    "url": "http://github.com/joeybaker/winston-hipchat.git"
   },
-  "keywords": ["logging", "sysadmin", "tools"],
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "chat",
+    "winston",
+    "hipchat",
+    "flatiron"
+  ],
   "dependencies": {
-    "loggly": "0.3.x >=0.3.7"
+    "request": "~2.27.0"
   },
   "devDependencies": {
-    "winston": "0.5.x",
-    "vows": "0.5.x >=0.5.11"
+    "winston": "~0.7",
+    "vows": "0.5.x >=0.5.11",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-shell": "~0.5.0",
+    "grunt-bumpx": "~0.1.5",
+    "chai": "~1.8.1",
+    "grunt-notify": "~0.2.13",
+    "mocha": "~1.13.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt": "~0.4.1",
+    "sinon": "~1.7.3"
   },
-  "main": "./lib/winston-loggly",
-  "scripts": { "test": "vows --spec" },
-  "engines": { "node": ">= 0.4.0" }
+  "peerDependencies": {
+    "winston": "~0.7"
+  },
+  "main": "./lib/winston-hipchat",
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
