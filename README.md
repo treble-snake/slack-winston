@@ -40,6 +40,9 @@ Many options can be seen in the [Hipchat API docs](https://www.hipchat.com/docs/
 ## Run Tests
 None yet.
 
+## Changelog
+### 0.1.0 Initial Release
+
 #### Author: [Joey Baker](http://byjoeybaker.com)
 Based on [winston-loggly](https://github.com/indexzero/winston-loggly) by [Charlie Robbins](http://blog.nodejitsu.com)
 #### License: MIT
@@ -49,6 +52,3 @@ Based on [winston-loggly](https://github.com/indexzero/winston-loggly) by [Charl
 [2]: http://nodejitsu.com
 [6]: http://vowsjs.org
 [7]: http://npmjs.org
-
-## Changelog
-### 0.1.0 Initial Release
