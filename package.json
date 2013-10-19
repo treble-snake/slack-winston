@@ -1,11 +1,11 @@
 {
   "name": "winston-hipchat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Hipchat transport for winston",
   "author": "Joey Baker <joey@byjoeybaker.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/joeybaker/winston-hipchat.git"
+    "url": "https://github.com/joeybaker/winston-hipchat.git"
   },
   "keywords": [
     "logging",
