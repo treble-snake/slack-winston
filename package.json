@@ -1,6 +1,6 @@
 {
   "name": "winston-hipchat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Hipchat transport for winston",
   "author": "Joey Baker <joey@byjoeybaker.com>",
   "repository": {

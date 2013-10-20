@@ -43,7 +43,10 @@ Many options can be seen in the [Hipchat API docs](https://www.hipchat.com/docs/
 None yet.
 
 ## Changelog
-### 0.1.0 Initial Release
+### 0.1.0 Add message customizing via templates
+* now depends on lodash
+
+### 0.0.0 Initial Release
 
 #### Author: [Joey Baker](http://byjoeybaker.com)
 Based on [winston-loggly](https://github.com/indexzero/winston-loggly) by [Charlie Robbins](http://blog.nodejitsu.com)
