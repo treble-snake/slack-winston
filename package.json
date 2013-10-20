@@ -1,6 +1,6 @@
 {
   "name": "winston-hipchat",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A Hipchat transport for winston",
   "author": "Joey Baker <joey@byjoeybaker.com>",
   "repository": {
@@ -17,7 +17,8 @@
     "flatiron"
   ],
   "dependencies": {
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "lodash": "~2.2.1"
   },
   "devDependencies": {
     "winston": "~0.7",

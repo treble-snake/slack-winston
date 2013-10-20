@@ -21,6 +21,8 @@ Many options can be seen in the [Hipchat API docs](https://www.hipchat.com/docs/
 * __color:__ One of "yellow", "red", "green", "purple", "gray", or "random". (default: yellow)
 * __room:__ Required. ID or name of the room.
 * __from:__ Required. Name the message will appear be sent from. Must be less than 15 characters long. May contain letters, numbers, -, _, and spaces.
+* __messageFormat:__ `text` (default) or `html`.
+* __message:__ [lodash templates](http://lodash.com/docs#template). Gets passed the `{{message}}`, `{{level}}`, and `{{meta}}` as a JSON string. If not specified, it will print a default of `{{message}}\n\n{{meta}}`
 
 ## Installation
 
