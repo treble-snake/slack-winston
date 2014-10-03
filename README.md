@@ -43,12 +43,16 @@ Many options can be seen in the [Hipchat API docs](https://www.hipchat.com/docs/
 None yet.
 
 ## Changelog
+### 0.1.3 Changed package.json to still support winston v0.9
+### 0.1.2 Changed package.json to reflect winston v0.8
 ### 0.1.0 Add message customizing via templates
 * now depends on lodash
 
 ### 0.0.0 Initial Release
 
 #### Author: [Joey Baker](http://byjoeybaker.com)
+#### Contributor: [Joe Parrinello](https://github.com/Taevis662)
+
 Based on [winston-loggly](https://github.com/indexzero/winston-loggly) by [Charlie Robbins](http://blog.nodejitsu.com)
 #### License: MIT
 
