@@ -34,7 +34,7 @@
     "sinon": "~1.7.3"
   },
   "peerDependencies": {
-    "winston": "~0.7"
+    "winston": "~0.8"
   },
   "main": "./lib/winston-hipchat",
   "scripts": {
