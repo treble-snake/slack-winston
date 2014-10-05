@@ -21,7 +21,7 @@ structure to `winston-hipchat` (switched from using HipChat &rarr; Slack and wan
 ## Install
 
 ```bash
-npm install -S winston winston-slack
+npm install -S winston slack-winston
 ```
 
 
@@ -32,10 +32,10 @@ var winston = require('winston')
 var slackWinston = require('slack-winston').Slack
 
 var options = {
-  level: 'warn',
-  token: 'my-slack-token',
+  domain: 'my-domain',
+  token: 'my-slack-incoming-webhook-token',
   channel: 'general',
-
+  level: 'warn'
 }
 
 winston.add(slackWinston, options)
@@ -64,6 +64,7 @@ Many options can be seen in the [Slack API docs](https://api.slack.com/methods/c
 [MIT][license-url]
 
 
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
 [slack]: http://slack.com
 [winston]: https://github.com/flatiron/winston
