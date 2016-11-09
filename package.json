@@ -17,11 +17,11 @@
     "flatiron"
   ],
   "dependencies": {
-    "request": "~2.27.0",
-    "lodash": "~2.2.1"
+    "request": "~2.78.0",
+    "lodash": "~4.16.6"
   },
   "devDependencies": {
-    "winston": "~0.7"
+    "winston": "~2.3"
   },
   "peerDependencies": {
     "winston": "<=0.8 || >=0.7"
