@@ -34,6 +34,7 @@ var slackWinston = require('slack-winston').Slack
 var options = {
   domain: 'my-domain',
   token: 'my-slack-incoming-webhook-token',
+  webhook_url: 'my-slack-incoming-webhook-url',
   channel: 'general',
   level: 'warn'
 }
@@ -46,6 +47,7 @@ Many options can be seen in the [Slack API docs](https://api.slack.com/methods/c
 * __level:__ Level of messages that this transport should log
 * __silent:__ If true, will not log messages
 * __token:__ Required. Slack incoming webhook token
+* __webhook_url:__ Required. Slack incoming webhook url.
 * __channel:__ Required. Channel of chat (e.g. "#foo" or "@foo")
 * __domain:__ Required. Domain of Slack (e.g. "foo" if "foo.slack.com")
 * __username:__ Username of the incoming webhook Slack bot (defaults to "Winston")
