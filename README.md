@@ -53,7 +53,7 @@ Many options can be seen in the [Slack API docs](https://api.slack.com/methods/c
 * __username:__ Username of the incoming webhook Slack bot (defaults to "Winston")
 * __icon_emoji:__ Icon of bot (defaults to :tophat: `:tophat:`)
 * __message:__ [lodash templates](http://lodash.com/docs#template). Gets passed the `{{message}}`, `{{level}}`, and `{{meta}}` as a JSON string. If not specified, it will print a default of `{{message}}\n\n{{meta}}`.  **Note that this gets sent as the `text` field in the payload per Slack requirements.**
-
+* __queueDelay:__ Delay time (ms) between messages in queue (defaults to 500)
 
 ## Credits
 
