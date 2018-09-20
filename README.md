@@ -1,8 +1,9 @@
 # slack-winston
 
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][npm-downloads]][npm-url]
 [![MIT License][license-image]][license-url]
+
+> *Disclaimer:* this is just a fork of [slack-winston](https://www.npmjs.com/package/slack-winston)
+library with up-to-date dependencies (requires Node v6 or higher). Almost everything else left as is.
 
 > A [Slack][slack] transport for [winston][winston].
 
@@ -21,7 +22,7 @@ structure to `winston-hipchat` (switched from using HipChat &rarr; Slack and wan
 ## Install
 
 ```bash
-npm install -S winston slack-winston
+npm install -S winston slack-winston-fresh
 ```
 
 
@@ -29,7 +30,7 @@ npm install -S winston slack-winston
 
 ```js
 var winston = require('winston')
-var slackWinston = require('slack-winston').Slack
+var slackWinston = require('slack-winston-fresh').Slack
 
 var options = {
   domain: 'my-domain',
@@ -70,6 +71,4 @@ Many options can be seen in the [Slack API docs](https://api.slack.com/methods/c
 [license-url]: LICENSE
 [slack]: http://slack.com
 [winston]: https://github.com/flatiron/winston
-[npm-image]: http://img.shields.io/npm/v/slack-winston.svg?style=flat
 [npm-url]: https://npmjs.org/package/slack-winston
-[npm-downloads]: http://img.shields.io/npm/dm/slack-winston.svg?style=flat
